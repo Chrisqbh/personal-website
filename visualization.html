@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/flexslider.css">
+	<link rel="stylesheet" href="fonts/icomoon/style.css">
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet">
+
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+
+  	window.addEventListener('scroll', myFunction);
+
+	var project = document.getElementById("myHeader");
+	var sticky = project.offsetTop;
+
+	function myFunction() {
+  				if (window.pageYOffset > sticky) 
+				{
+    				project.classList.add("sticky");
+  				} 
+				else {
+    				project.classList.remove("sticky");
+  				}
+	}
+});
+</script>
+
+</head>
+<body>
+	<div class="project" id="myHeader">
+		<a href="#default" class="logo">Information Visualization</a>
+	<div class="project-right">	
+		<a href="index.html#section-portfolio">Back</a>
+	</div>
+	</div>
+	
+
+<div class="intro">
+<section class="project-section_2" id="iv">
+	<div class="ivhead">
+	<p class="feature-header">
+	Boston Crime Incidents Visualization
+	</p>
+	</div>
+<p class="headerfeature">
+		Has Boston become safer throughout these years?	</p>
+
+		<p class= "story">
+			Crime rate is something that concerns every single citizen. Before I came to Boston, I wanted to know which parts of Boston is safe and when should I go. 			Using knowledge that I learned on information visualization. I decided to find out myself. 
+
+		</p>
+		
+</div>
+	<div class="detail">
+	<img src="images/data.png" class="detail-demo">
+	<p class= "story_3">
+			Dataset is crucial when it comes to any visualization. I chose to go with the most comprehensive and trusted one on the government website of Boston. The 			dataset was updated till October this year and focus only on the crimes taken place in Boston area. The dataset has longitude and latitude data and also 			district data to make it handy when analyzing crime patterns in different area in Boston.
+
+		</p>
+	
+	</div>
+
+<div class="detail">
+	<img src="images/form.png" class="detail-demo">
+	<p class= "story_1">
+			Data Cleaning:
+	</p>
+	<p class= "story_1">
+			We removed data with invalid or unmatched location so that every single row of data make sense. 
+	</p>
+	<p class= "story_2">
+			Then we removed data for October 2019 cause the data for this month is not complete. Now that the data covers complete months throughout the dataset
+	</p>
+	
+	</div>
+
+<div class="detail">
+	<img src="images/dash.png" class="detail-demo">
+	<p class= "story_1">
+			From the highlight map and the heat map, we can have a rough idea of how many crimes take place in different areas in Boston. Among all the districts, 				Roxbury, Dorchester, South End and Downtown at the top right-hand corner are the most dangerous.
+
+
+	</p>
+	<p class= "story_2">
+			Also we can see that crimes happens more often during July, August and September. Unfortunately, the best seasons in Boston .
+
+	</p>
+	
+	
+	</div>
+
+<div class="detail">
+	<img src="images/explain.png" class="detail-demo">
+	<p class= "story_1">
+		Then let's take a look at criminals’ time schedule. The graph shows that the crime rate is much lower during midnight times. Criminals do sleep as well! And that 		doesn’t means that they are early birds as the crime rate reaches its peak at around 4-6 o’ clock. 
+
+
+
+	</p>
+	<p class= "story_1">
+		How about different days in a week then, we can see that crime rates did decrease a little bit on weekends. Not much according to the legend, but still makes 			a good excuse for a downtown trip out during the weekends. 
+
+	</p>
+	<p class= "story_2">
+		In terms of the prediction on whether Boston has became safer and will be safer in the future. The prediction shows an upward trend in crime rate for the 			coming two years, so take care ladies and gentlemen. 	
+	</p>
+	
+	</div>
+
+	<footer class="site-footer">
+		<div class="container-1">
+
+			<div class="row mb-5">
+				<p class="col-12 text-center">
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved 
+				</p>
+			</div>
+			
+			<div class="row mb-5">
+				<div class="col-md-12 text-center">
+					<p>
+						<a href="#" class="social-item"><span class="icon-facebook2"></span></a>
+						<a href="#" class="social-item"><span class="icon-twitter"></span></a>
+						<a href="#" class="social-item"><span class="icon-instagram2"></span></a>
+						<a href="#" class="social-item"><span class="icon-linkedin2"></span></a>
+						<a href="#" class="social-item"><span class="icon-vimeo"></span></a>
+					</p>
+				</div>
+			</div>
+			
+		</div>
+	</footer>
+</body>
+</html>

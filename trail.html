@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/flexslider.css">
+	<link rel="stylesheet" href="fonts/icomoon/style.css">
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet">
+
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+
+  	window.addEventListener('scroll', myFunction);
+
+	var project = document.getElementById("myHeader");
+	var sticky = project.offsetTop;
+
+	function myFunction() {
+  				if (window.pageYOffset > sticky) 
+				{
+    				project.classList.add("sticky");
+  				} 
+				else {
+    				project.classList.remove("sticky");
+  				}
+	}
+
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+});
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+
+
+</head>
+    
+    
+    
+    
+    
+<body>
+ <div class="project" id="myHeader">
+		<a href="#default" class="logo">Trail Sale locations & Targets</a>
+	<div class="project-right">	
+		<a href="index.html#section-portfolio">Back</a>
+	</div>
+	</div>   
+<div class="intro">
+<section class="project-section_3" id="ts">
+	<div class="ivhead">
+	<p class="feature-header">
+	Trail Sale locations & Targets
+	</p>
+	</div>
+<p class="headerfeature">
+    Find the right customer at the right place
+	</p>
+
+		<p class= "story">
+		With its huge backstage data platform, DTise is building several front-stage products that can optimize the whole marketing strategy of the company. Among them, there’s a trail sale location & customer Idea. 
+
+		</p>
+		
+</div>
+
+
+    
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Shops</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Customers</button>
+</div>
+
+<div id="London" class="tabcontent">
+  <h3 class="trail-header">Shops</h3>
+  <p class="feature-trail">Based on the huge backstage data platform, the company is able to determine whether a store is good for trail sale a certain SKU </p>
+    <div>
+      <img src="images/search.png" class="trail_demo">
+ </div>
+  <p class="feature-trail">The system grade each store based on its operation, SKC fitment and market potential according to the SKCs that we are looking for
+</p>
+   <div>
+      <img src="images/results.png" class="trail_demo">
+ </div>  
+   <div>
+      <img src="images/details.png" class="trail_demo">
+ </div>      
+  <p class="feature-trail">Here’s some more view on operation grades
+</p>     
+ <div>
+       <img src="images/more.png" class="trail_demo">
+  </div>     
+  <h3 class="trail-header">It does not end there</h3>  
+<p class="feature-trail">Click each attributes, there’s a rank of stores just in this single attribute
+</p>     
+ <div>
+       <img src="images/foot.png" class="trail_demo">
+  </div>  
+</div>
+
+<div id="Paris" class="tabcontent">
+<h3 class="trail-header">Customers</h3>
+    <p class="feature-trail">If choosing the best store for trail sale doesn’t excite you, how about finding the right customer? </p>
+    <p class="feature-trail">And by customer I mean actual individuals </p>
+    <div>
+       <img src="images/customer.png" class="trail_demo">
+  </div> 
+<p class="feature-trail">Dtise’s PP (People Picture) product enables companies to find their best customers </p>
+<div>
+       <img src="images/customer_details.png" class="trail_demo">
+  </div> 
+    
+<p class="feature-trail">"Best" means higher scores on not only the FRM rating but also how much of a fan they are on the SKCs you put in earlier on </p>
+<div>
+       <img src="images/frm.png" class="trail_demo">
+  </div> 
+        
+</div>
+
+    
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>    
+    
+<footer class="site-footer">
+		<div class="container-1">
+
+			<div class="row mb-5">
+				<p class="col-12 text-center">
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved 
+				</p>
+			</div>
+			
+			<div class="row mb-5">
+				<div class="col-md-12 text-center">
+					<p>
+						<a href="#" class="social-item"><span class="icon-facebook2"></span></a>
+						<a href="#" class="social-item"><span class="icon-twitter"></span></a>
+						<a href="#" class="social-item"><span class="icon-instagram2"></span></a>
+						<a href="#" class="social-item"><span class="icon-linkedin2"></span></a>
+						<a href="#" class="social-item"><span class="icon-vimeo"></span></a>
+					</p>
+				</div>
+			</div>
+			
+		</div>
+	</footer>
+</body>
+</html>
+
+   
