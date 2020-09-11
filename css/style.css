@@ -676,14 +676,14 @@ a {
   color: rgba(255, 255, 255, 0.5) !important; }
 
 .project {
-  		padding: 26px;
+  		padding: 15px;
+		overflow: hidden;
  		background: #171717;
 		border-bottom: 1px solid grey
 		position: relative; 
 		z-index: 1
 	}
 
-.content {padding:20px;}
 
 .sticky {
   		position: fixed;
@@ -692,7 +692,7 @@ a {
 	}
 
 .sticky + .project {
-  		padding-top: 102px;
+  		padding-top: 60px;
 	}
 
 /* Style the header links */
